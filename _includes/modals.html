@@ -13,7 +13,11 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
+            {% if post.project-title %}
+            <h2>{{ post.project-title }}</h2>
+            {% else %}
             <h2>{{ post.title }}</h2>
+            {% endif %}
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
@@ -21,18 +25,18 @@
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
-              <li>Client:
+              <li>근무지:
                 <strong>{{ post.client }}</strong>
               </li>
               {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
+              {% if post.category %}
+              <li>관련기술: 
+                <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
+              {% if post.project-date %}
+              <li>일정:
+                <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
             </ul>

@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 3
+project-title: 주요 업무 - 3
+date: 2025-02-26
+img: cabin.png
+alt: image-alt
+project-date:  2021.11 ~ 2024.02
+client: 삼영이엔씨
+category: JAVA, Kotlin, C++, 안드로이드, STM32/ATMEGA 펌웨어
+description: '해양 장비 신형 플로터 개발<br/>
+ <div style="text-align: left">
+    <ul>
+        <li>GUI 구현 : 안드로이드 GUI 구현, 내부 DB 처리</li>
+        <li>어군탐지기 제어 : PWM 제어, ADC 처리, CMSIS DSP 처리, SW Self Writing 구현</li>
+        <li>데이터 통신 : UART, SPI, 이더넷, Wifi, 블루투스</li>
+        <li>장치,센서 제어 : 온도 센서, 전압 측정, 외부 입력 키 입력, IR 리모컨 리시버</li>
+    </ul>
+ </div>'
+---

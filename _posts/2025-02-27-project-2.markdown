@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 2
+project-title: 주요 업무 - 2
+date: 2025-02-27
+img: cabin.png
+alt: image-alt
+project-date:  2019.11 ~ 2020.10
+client: 삼영이엔씨
+category: C, C++, QT, QML, STM32/ATMEGA 펌웨어, 리눅스
+description: '해양 장비 신형 플로터 개발<br/>
+ <div style="text-align: left">
+    <ul>
+        <li>GUI 구현 : QT/QML GUI 구현, 지도 차트 그리기, 기상 정보 표시 (OPEN API)</li>
+        <li>어군탐지기 제어 : PWM 제어, ADC 처리, CMSIS DSP 처리, SW Self Writing 구현</li>
+        <li>데이터 통신 : UART, SPI, 이더넷, Wifi, 블루투스</li>
+        <li>장치,센서 제어 : 온도 센서, 전압 측정, 외부 입력 키 입력</li>
+    </ul>
+ </div>'
+---

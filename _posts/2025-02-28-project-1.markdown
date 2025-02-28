@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 1
+project-title: 주요 업무 - 1
+date: 2025-02-28
+img: cabin.png
+alt: image-alt
+project-date: 2012-07 ~ 2019-07
+client: LG전자
+category: C, C++, MFC, 르네사스 MCU 펌웨어
+description: '스탠드형 에어컨 실내기 Main PCB 및 Sub PCB 프로그램 구현<br/>
+ <div style="text-align: left">
+    <ul>
+        <li>장치 제어 : BLDC 모터, 스텝모터, IR 리모컨 리시버, BEEP 및 오디오 코덱, LED 화면 및 조명, 터치키</li>
+        <li>데이터 통신 : UART, SPI</li>
+        <li>센서 제어 : 온도 센서, 습도 센서, 먼지 센서</li>
+        <li>테스트 프로그램 개발 : UI 데이터 표시</li>
+    </ul>
+ </div>'
+---

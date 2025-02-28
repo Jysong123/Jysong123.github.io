@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 6
+project-title: 프로젝트 - 3
+date: 2025-02-23
+img: cabin.png
+alt: image-alt
+project-date:  2021.02 ~ 
+client: LG전자
+category: C, STM32 펌웨어
+description: '신형 어군탐지기 개발 프로젝트<br/>
+ <div style="text-align: left">
+    <ul>
+        <li>Chirp 방식의 어군탐지기 개발 프로젝트</li>
+        <li>외부 메모리 사용을 사용하여 데이터 저장</li>
+        <li>이더넷 통신을 하여 데이터 전송</li>
+    </ul>
+ </div>'
+---
