@@ -3,7 +3,7 @@ layout: default
 modal-id: 3
 project-title: 주요 업무 - 3
 date: 2025-02-26
-img: cabin.png
+img: enav.jpg
 alt: image-alt
 project-date:  2021.11 ~ 2024.02
 client: 삼영이엔씨

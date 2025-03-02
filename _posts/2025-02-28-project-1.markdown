@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 project-title: 주요 업무 - 1
 date: 2025-02-28
-img: cabin.png
+img: aircon.png
 alt: image-alt
 project-date: 2012-07 ~ 2019-07
 client: LG전자

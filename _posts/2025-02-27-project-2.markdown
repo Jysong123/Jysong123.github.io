@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 project-title: 주요 업무 - 2
 date: 2025-02-27
-img: cabin.png
+img: plovis.jpg
 alt: image-alt
 project-date:  2019.11 ~ 2020.10
 client: 삼영이엔씨

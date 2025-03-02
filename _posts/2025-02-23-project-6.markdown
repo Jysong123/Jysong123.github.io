@@ -3,7 +3,7 @@ layout: default
 modal-id: 6
 project-title: 프로젝트 - 3
 date: 2025-02-23
-img: cabin.png
+img: sonar.jpg
 alt: image-alt
 project-date:  2021.02 ~ 
 client: LG전자
