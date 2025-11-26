@@ -27,7 +27,7 @@ permalink: /modern/
       {% for post in site.posts limit:6 %}
       <div class="card">
         <div class="card-tag">{{ post.category | default: "Project" }}</div>
-        <h3 class="card-title">{{ post.project-title | default: post.title }}</h3>
+        <h3 class="card-title">{{ post['project-title'] | default: post.title }}</h3>
         <p class="card-text">{{ post.alt | default: post.excerpt | strip_html | truncate: 100 }}</p>
       </div>
       {% endfor %}
