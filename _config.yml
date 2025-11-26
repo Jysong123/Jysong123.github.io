@@ -1,11 +1,12 @@
 # Site settings
-title: 임배디드 SW 개발자
+title: JY Portfolio
 email: sjy3003@gmail.com
 url: https://jysong123.github.io/
-description: "임배디드 관련 전반적인 S/W 분야에서 다양한 기술을 보유하고 있습니다. GUI, 펌웨어, 모듈간 통신 등 다양한 언어 및 기술을 통해 로젝트에 안정성과 성과를 책임질 수 있습니다."
+description: "임베디드 관련 전반적인 S/W 분야에서 다양한 기술을 보유하고 있습니다. GUI, 펌웨어, 모듈간 통신 등 다양한 언어 및 기술을 통해 프로젝트에 안정성과 성과를 책임질 수 있습니다."
 keywords: "C, C++, QT, QML, JAVA, Kotlin, MFC, Git, MCU"
 skills: "GUI 개발 (QT, 안드로이드) / 펌웨어 개발 (SMT32, Renesas, ATMEGA 등)"
 meta_author: Jaeyong Song
+timezone: Asia/Seoul
 
 # Google webmaster tools
 google_verify:
@@ -61,6 +62,10 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
 
 #for posts
 defaults:
