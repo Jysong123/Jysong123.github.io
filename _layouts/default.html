@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 {% include head.html %}
 
 <body id="page-top" class="index">
   {% include nav.html %}
-  {% include header.html %}
-  {% include portfolio_grid.html %}
-  {% include about.html %}
-  {% include skill.html %}
-  {% include footer.html %}
-  {% include modals.html %}
+  
+  <main>
+    {{ content }}
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </footer>
+  
   {% include js.html %}
 </body>
 
