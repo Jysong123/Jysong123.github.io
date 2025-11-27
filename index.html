@@ -1,3 +1,92 @@
 ---
 layout: default
+title: Home
 ---
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <span class="tag">Embedded SW Developer</span>
+    <h1>임베디드 SW 개발자<br>송재용입니다</h1>
+    <p>{{ site.description }}</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-default">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+      <p>다양한 임베디드 SW 프로젝트 경험</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="card-placeholder">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">GUI 개발</h3>
+          <p class="card-text">QT, QML, MFC를 활용한 사용자 인터페이스 개발. 안드로이드 앱 개발 경험 보유.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-placeholder">
+          <i class="fas fa-microchip"></i>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">펌웨어 개발</h3>
+          <p class="card-text">STM32, Renesas, ATMEGA 등 다양한 MCU를 활용한 펌웨어 개발 경험.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-placeholder">
+          <i class="fas fa-exchange-alt"></i>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">모듈 간 통신</h3>
+          <p class="card-text">UART, SPI, I2C 등 다양한 통신 프로토콜을 활용한 시스템 연동 개발.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <p>임베디드 관련 전반적인 S/W 분야에서 다양한 기술을 보유하고 있습니다. GUI, 펌웨어, 모듈간 통신 등 다양한 언어 및 기술을 통해 프로젝트에 안정성과 성과를 책임질 수 있습니다.</p>
+      <p class="mt-lg"><strong>Skills:</strong> {{ site.skills }}</p>
+      <p><strong>Technologies:</strong> {{ site.keywords }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>프로젝트 관련 문의는 언제든지 연락해 주세요</p>
+    </div>
+    <div class="contact-card card">
+      <div class="card-body">
+        <h3 class="card-title">Get In Touch</h3>
+        <ul class="contact-info">
+          <li><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.url %}
+          <li><strong>Website:</strong> <a href="{{ site.url }}">{{ site.url }}</a></li>
+          {% endif %}
+        </ul>
+        <a href="mailto:{{ site.email }}" class="btn btn-primary">Send Email</a>
+      </div>
+    </div>
+  </div>
+</section>
